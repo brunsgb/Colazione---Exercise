@@ -1,0 +1,180 @@
+body {
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* NAVIGATION BAR/HEADER */
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #FFE36D;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* SLIDE 1 */
+
+.hero-image {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url("/Users/brunabarbosa/Desktop/Accademia di Belle Arti/web design/exercices/colazione web page/images/first.jpg");
+
+  /* specific height */
+  height: 70%;
+
+  /* position and center the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+
+.hero-text h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* SLIDE 2 */
+
+.section {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 10 auto 10 auto;
+
+}
+.section img {
+    height: 600px;
+}
+
+.section h4 {
+    color: black;
+
+}
+
+.section h2 {
+    margin: 0;
+    color: black;
+}
+
+.section p {
+    color: black;
+    margin-right: 15px;
+}
+
+
+/* SLIDE 3 */ 
+
+.english {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 10 auto 10 auto;
+}
+
+.english img {
+    height: 600px;
+}
+
+.english h2 {
+    color: black;
+}
+
+.english p {
+    color: black;
+    margin-right: 15px;
+}
+
+/* SLIDE 4 */
+
+.portuguese {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 10 auto 10 auto;
+}
+
+.portuguese img {
+    height: 600px;
+}
+
+.portuguese h2 {
+    color: black;
+}
+
+.portuguese p {
+    color: black;
+    margin-right: 15px;
+}
+
+/* SLIDE 5 */
+
+.end {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin: 10 auto 10 auto;
+}
+
+.end img {
+    height: 600px;
+}
+
+.end h2 {
+    color: black;
+}
+
+.end p {
+    color: black;
+    margin-right: 15px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #FFE36D;
+}
